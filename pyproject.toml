@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "map-ai"
+version = "0.1.0"
+description = ""
+authors = ["Nazmus Saadat <nazmus.saadat1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.285"
+openai = "^0.28.0"
+python-dotenv = "^1.0.0"
+chromadb = "^0.4.9"
+
+[tool.poetry.group.dev.dependencies]
+openrouteservice = "^2.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
