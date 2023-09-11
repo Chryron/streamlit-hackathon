@@ -11,6 +11,8 @@ langchain = "^0.0.285"
 openai = "^0.28.0"
 python-dotenv = "^1.0.0"
 chromadb = "^0.4.9"
+streamlit = "^1.26.0"
+pydeck = "^0.8.0"
 
 [tool.poetry.group.dev.dependencies]
 openrouteservice = "^2.3.3"
